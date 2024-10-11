@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Symfony & table de pythagore{% endblock %}
+
+{% block body %}
+<style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>Hello Lonchi Zonang Blanche ! ✅</h1>
+
+   
+    <div> {{table|raw}}</div>
+</div>
+
+
+{% endblock %}
